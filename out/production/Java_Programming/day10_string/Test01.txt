@@ -1,0 +1,3 @@
+Hello today is Friday
+How are you today?
+This is a text file
