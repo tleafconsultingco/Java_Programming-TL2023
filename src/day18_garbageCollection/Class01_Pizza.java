@@ -2,23 +2,31 @@ package day18_garbageCollection;
 
 public class Class01_Pizza {
 
-    public class Pizza{
+    // 1. create INSTANCE VARIABLES
+    public char size;
+    public int numberOfCheeseTopping,
+            numberOfPepperoniTopping;
 
-        public int size;
-        public int numberOfCheeseTopping;
-        public int numberOfPepperoniTopping;
-
-        public void calcCost(){
-
-        }
-        public void toString(){
-
-        }
-
-
-    }
-
-
+    // 2. create INSTANCE METHODS
+    public double calcCost() {
+        double totalPrice = 0;
+        // 2a. need to determine cost based on size
+        switch(size){
+            case 'S':
+            case 's':
+                totalPrice = 10+(2*(numberOfCheeseTopping+numberOfPepperoniTopping));
+                break;
+            case 'M':
+            case 'm':
+                totalPrice = 12+(2*(numberOfCheeseTopping+numberOfPepperoniTopping));
+            case 'L':
+            case 'l':
+                totalPrice = 14+(2*(numberOfCheeseTopping+numberOfPepperoniTopping));
+            default:
+                System.err.println("Invalid size: "+size);
+        } // close switch
+            return totalPrice;
+    } // close calcCost()
 
 } // class close
 /*

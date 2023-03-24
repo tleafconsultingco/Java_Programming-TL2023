@@ -7,7 +7,7 @@ public class Class05_Dog {
 
     // INSTANCE VARIABLES (all objects will have these variables)
     // these are the attributes
-    public String name; // cannot assign the variable name, it will be set when called w/in the object
+    public String name; // cannot assign value to the variable name, it will be set when called w/in the object
     public String breed;
     public String size;
     public char gender;
