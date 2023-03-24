@@ -1,6 +1,6 @@
 package day18_garbageCollection;
 
-public class Class02_BankAccount {
+public class Class03_BankAccount {
 }
 /*
 Create a custom class named BankAccount: Attributes:
