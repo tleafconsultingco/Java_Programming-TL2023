@@ -39,7 +39,7 @@ public class Class05_Dog {
 
     // toString() method required to be able to print object when it's called in a main method
 
-    public String toString() { // to avoid getting hascode when trying to print object
+    public String toString() { // to avoid getting hashcode when trying to print object
         return "Class05_Dog{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +

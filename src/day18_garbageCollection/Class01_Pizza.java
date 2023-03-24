@@ -1,7 +1,26 @@
 package day18_garbageCollection;
 
 public class Class01_Pizza {
-}
+
+    public class Pizza{
+
+        public int size;
+        public int numberOfCheeseTopping;
+        public int numberOfPepperoniTopping;
+
+        public void calcCost(){
+
+        }
+        public void toString(){
+
+        }
+
+
+    }
+
+
+
+} // class close
 /*
 Create a class named Pizza:
 Attributes:
