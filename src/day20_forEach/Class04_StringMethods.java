@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class Class04_StringMethods {
     public static void main(String[] args) {
-
         // toCharArray()
         String str = "Cydeo School";
 
@@ -17,14 +16,14 @@ public class Class04_StringMethods {
 
         // 1a. Print
         System.out.println(Arrays.toString(ch)); // at each index we'll have the charaters of the string
-            // [C, y, d, e, o,  , S, c, h, o, o, l]
+        // [C, y, d, e, o,  , S, c, h, o, o, l]
 
         // 2. What if I don't want to include the spaces in the index?
         // 3. Use replace() method
 
         char [] chNoSpace = str.replace(" ","").toCharArray(); // 3a. replace blank space with empty string
         System.out.println(Arrays.toString(chNoSpace));
-            // [C, y, d, e, o, S, c, h, o, o, l]
+        // [C, y, d, e, o, S, c, h, o, o, l]
 
         System.out.println("--------");
         // split()
@@ -37,17 +36,17 @@ public class Class04_StringMethods {
         String[] words = str2.split(" "); // returns an array that splits the sentence by space, total 7 spaces for 8 words
 
         System.out.println(Arrays.toString(words));
-            // [Today, is, a, great, day, to, learn, Java]
+        // [Today, is, a, great, day, to, learn, Java]
 
         // What if I split by the word "great"?
         String[] wordsSplitGreat = str2.split("great");
         System.out.println(Arrays.toString(wordsSplitGreat)); // two arrays
-            // [Today is a ,  day to learn Java]
+        // [Today is a ,  day to learn Java]
 
         // What if I split using a word that does not exist in the string?
         String[] splitPython = str2.split("Python"); // this word is not in our string
         System.out.println(Arrays.toString(splitPython)); // you will return 1 array, the original
-            // [Today is a great day to learn Java]
+        // [Today is a great day to learn Java]
 
 
         System.out.println("-------------");
@@ -58,12 +57,12 @@ public class Class04_StringMethods {
         // 1. Split this sentence and put in a new array
         String[] sentenceSplit = sentence.split(" ");
         System.out.println(Arrays.toString(sentenceSplit));
-            // [I, love, Java]
+        // [I, love, Java]
 
         // 2. Reverse the array using the custom method
         String[] arrayReverse = ArraysUtility.reverse(sentence.split(" "));
         System.out.println(Arrays.toString(arrayReverse));
-            // [Java, love, I]
+        // [Java, love, I]
 
         // 3. Create new string with reversed array by concatenating each element in the array to the string variable using a For loop
         String sentenceReverse = "";
@@ -73,8 +72,7 @@ public class Class04_StringMethods {
             sentenceReverse += arrayReverse[i]+" "; // remember to include a string for spaces in between words
         }
         System.out.println(sentenceReverse);
-            // Java love I
-
+        // Java love I
 
 
 
