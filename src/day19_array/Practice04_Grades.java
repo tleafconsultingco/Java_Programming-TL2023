@@ -1,7 +1,19 @@
 package day19_array;
 
-public class Practice04_FollowingArrays2 {
-}
+public class Practice04_Grades {
+    public static void main(String[] args) {
+        String [] names = {"Anna", "Nancy", "Sarah"};
+        int [] scores = {90, 75, 80};
+        char [] grades = new char[names.length];
+
+        /*
+        STEPS
+        1.
+         */
+
+
+    }//main close
+}//class close
 /*
 given the following arrays:
 String [] names = {"Anna", "Nancy", "Sarah"};
