@@ -8,9 +8,9 @@ public class Class07_NestedIfIntro {
         int score = 95;
 
 
-        if (score >= 0 && score <= 100){ // precondition. if the score is valid
+        if (score >= 0 && score <= 100){ //! precondition. if the score is valid
 
-            if (score >= 60){ // this if statement is executed within another if statement. if the score is greater or equal to 60
+            if (score >= 60){ //!! this if statement is executed within another if statement. if the score is greater or equal to 60
                 System.out.println("Passed");
             } else{ // if the score is less than 60
                 System.out.println("Failed");
