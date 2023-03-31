@@ -5,10 +5,10 @@ public class Class06_ForEachLoop {
 
         int[] numbers = {10,20,30,40,50};
 
-        // 1. Using For loop
+        //! 1. Using For loop
         for (int i = 0; i < numbers.length; i++) {
-            // this i represents the index number of the loop
-            // by using this i I can get each element at every index number
+            //!! this i represents the index number of the loop
+            //!! by using this i I can get each element at every index number
             System.out.println(numbers[i]);
                 // 10
                 // 20
@@ -17,7 +17,7 @@ public class Class06_ForEachLoop {
                 // 50
         }
 
-        // 2. Use For-Each loop
+        //! 2. Use For-Each loop
         for (int each:numbers){
             System.out.println(each);
                 // 10

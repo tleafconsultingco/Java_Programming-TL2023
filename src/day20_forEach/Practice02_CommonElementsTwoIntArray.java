@@ -6,14 +6,14 @@ public class Practice02_CommonElementsTwoIntArray {
         int[] arr1 = {1,2,3,4,5};
         int[] arr2 = {4,5,6,7,8};
 
-        // 1. Initialize new variable
+        //! 1. Initialize new variable
         int commonElements = 0;
 
-        // 2. Use For-Each nested loop
+        //! 2. Use For-Each nested loop
         for (int elementA : arr1) {
-            // 2a. Run loop through all elements in arr2
+            //!! 2a. Run loop through all elements in arr2
             for (int elementB : arr2) {
-                // 3. Use if statement to compare the elements from loop
+                //! 3. Use if statement to compare the elements from loop
                 if (elementA == elementB){
                     System.out.print(elementA+" ");
                 }

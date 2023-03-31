@@ -5,17 +5,17 @@ import java.util.Arrays;
 public class Class08_Alphabets {
     public static void main(String[] args) {
 
-        // 1. Create array using new keyword and loop
+        //! 1. Create array using new keyword and loop
         char[] alphabetAscend = new char[26]; // index 0-25
         char[] alphabetDescend = new char[26]; // index 0-25
-        // 1a. You can use one loop for ascending and descending since the index numbers are the same
+        //!! 1a. You can use one loop for ascending and descending since the index numbers are the same
         for (int i = 0, j = 'A', k = 'Z'; i < alphabetAscend.length; i++, j++, k--) {
-            // 1b. Declare another variable j, assign 'A' and post increment
-            // 1c. Declare another variable k, assign 'Z' and post decrement
+            //!! 1b. Declare another variable j, assign 'A' and post increment
+            //!! 1c. Declare another variable k, assign 'Z' and post decrement
             alphabetAscend[i] = (char)j;
-            // 2. Ascending. For each index of char array we need to assign j, but j is an int and needs to be explicitly cast to char
+            //?? 2. Ascending. For each index of char array we need to assign j, but j is an int and needs to be explicitly cast to char
             alphabetDescend[i] = (char)k;
-            // 3. Descending. For each index of char array we need to assign k, but k is an int and needs to be explicitly case to char
+            //?? 3. Descending. For each index of char array we need to assign k, but k is an int and needs to be explicitly case to char
         }
 
         System.out.println(Arrays.toString(alphabetAscend));
@@ -25,8 +25,8 @@ public class Class08_Alphabets {
 
 
         System.out.println("-------------");
-        // 4. Create char array to store all characters
-        char[] characters = new char[65535]; // total number of char is 65535
+        //! 4. Create char array to store all characters
+        char[] characters = new char[65535]; //!! total number of char is 65535
 
         for (int i = 0; i < characters.length; i++) {
             characters[i] = (char)i;
