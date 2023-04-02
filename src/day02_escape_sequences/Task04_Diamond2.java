@@ -18,8 +18,5 @@ public class Task04_Diamond2 {
 
 
 
-    }
-
-
-
-}
+    }//main close
+}//class close

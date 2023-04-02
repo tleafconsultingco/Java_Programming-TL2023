@@ -7,7 +7,5 @@ public class Task05_Face {
         System.out.println("  |   ^   |");
         System.out.println("  |  '_'  |");
         System.out.println("  +------+");
-    }
-
-
-}
+    }//main close
+}//class close

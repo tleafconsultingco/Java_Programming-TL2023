@@ -22,9 +22,8 @@ public class Class04_EscapeSequences {
         // This creates a double qoute
         System.out.println("My favorite TV show is \"The Walking Dead\"");
 
-    }
-
-}
+    }//main close
+}//class close
 
     /*
     Escape Sequences

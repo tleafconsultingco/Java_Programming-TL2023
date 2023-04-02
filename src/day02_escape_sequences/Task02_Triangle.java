@@ -13,10 +13,8 @@ public class Task02_Triangle {
 
 
 
-    }
-
-
-}
+    }//main close
+}//class close
 /* TASK ASSIGNMENT
 1. Create a class named Triangle.java
 2. Write a code to print the following output in the console:

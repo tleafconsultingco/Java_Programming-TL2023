@@ -23,10 +23,5 @@ public class Task03_Diamond1 {
 
 
 
-    }
-
-
-
-
-
-}
+    }//main close
+}//class close
