@@ -2,7 +2,7 @@ package utilities;
 
 public class StringUtility {
 
-    // Reverses string
+    //- Reverses string
     public static String reverse(String str) {
         String reverse = ""; //!! declare this variable to contain all the characters of the given string in reverse order
 
@@ -13,7 +13,7 @@ public class StringUtility {
     }
 
 
-    // Counts the frequency of a word in a given string
+    //- Counts the frequency of a word in a given string
     public static int frequency(String sentence, String word){
 
         int count = 0;
@@ -28,7 +28,7 @@ public class StringUtility {
 
 
 
-    // Counts the frequency of a character in a given string
+    //- Counts the frequency of a character in a given string
     public static int frequency(String str, char ch){
         int count =0;
 
@@ -43,8 +43,7 @@ public class StringUtility {
     }
 
 
-
-    // Removes duplicates in a given string
+    //- Removes duplicates in a given string
     public static String removeDup(String str){
         String result = "";
 
