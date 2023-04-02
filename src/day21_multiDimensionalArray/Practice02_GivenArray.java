@@ -4,7 +4,7 @@ public class Practice02_GivenArray {
 }//class close
 /*
 Given the Array:
-                 String[][] items = {
+                String[][] items = {
 "Avocado"},
 Papers", "Tissues", "Diapers"},
 Tea", "Pepsi", "Water"}
