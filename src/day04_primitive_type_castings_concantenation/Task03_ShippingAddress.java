@@ -22,9 +22,8 @@ public class Task03_ShippingAddress {
 
 
 
-    }
-
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedShippingAddress.java 2. Declarethefollowingvariables:
 1. name

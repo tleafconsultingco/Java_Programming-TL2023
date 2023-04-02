@@ -31,9 +31,8 @@ public class Class06_SingleIfStatementsPractice {
         if(number % 2 != 0){
             System.out.println(number + " is odd number");
         }
-    }
-
-}
+    }//main close
+}//class close
 /*
 1. write a program that can identify if the given number is odd or even
 			Ex:

@@ -19,8 +19,8 @@ public class Class03_ConcatenationIntro {
 
 
 
-    }
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedFullName.java 2. Declarethefollowingvariables:
 1. firstName 2. lastName

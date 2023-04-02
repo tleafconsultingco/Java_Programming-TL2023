@@ -22,13 +22,8 @@ public class Task02_MaximumNumber {
 
 
 
-    }
-
-
-
-
-
-}
+    }//main close
+}//class close
 /*
 . Create a class named MaximumNumber.java
 2. Declare the following variables:

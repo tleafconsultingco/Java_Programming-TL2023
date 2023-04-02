@@ -16,11 +16,8 @@ public class Class01_OddOrEven {
 
 
 
-    }
-
-
-
-}
+    }//main close
+}//class close
 /*
 1. Create a class named OddOrEven, and write a program that can identify if the given number is odd or even
 			Ex:

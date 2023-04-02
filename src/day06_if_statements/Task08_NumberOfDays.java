@@ -44,12 +44,8 @@ public class Task08_NumberOfDays {
         System.out.println(result);
 
 
-    }
-
-
-
-
-}
+    }//main close
+}//class close
 
 /*
 2. An integer variable named month is declared and given, Write a program that can print the number of days in the given month

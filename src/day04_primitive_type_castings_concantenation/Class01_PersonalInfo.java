@@ -33,13 +33,8 @@ public class Class01_PersonalInfo {
 
 
 
-    }
-
-
-
-
-
-}
+    }//main close
+}//class close
 
 /*
 Create a class named PersonalInfo, and declare the variables with the appropriate for the followings:

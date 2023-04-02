@@ -35,8 +35,8 @@ public class Class01_SalaryCalculator {
                 "\nNet income is: " + salaryAfterTax
         );
 
-    }
-}
+    }//main close
+}//class close
 /*
 1. Create a class called SalaryCalculator.java
 			1.1declare the following variables:

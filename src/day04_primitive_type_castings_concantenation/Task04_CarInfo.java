@@ -11,8 +11,8 @@ public class Task04_CarInfo {
 
         System.out.println(year + " " + make + " " + model + ", " + miles + " miles, " + color + ", " + "$" + price);
 
-    }
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedCarInfo.java 2. Declarethefollowingvariables:
 1. year 2. make

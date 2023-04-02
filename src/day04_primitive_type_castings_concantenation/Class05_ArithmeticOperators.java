@@ -32,5 +32,5 @@ public class Class05_ArithmeticOperators {
         System.out.println(45%8); // 5
 
 
-    }
-}
+    }//main close
+}//class close

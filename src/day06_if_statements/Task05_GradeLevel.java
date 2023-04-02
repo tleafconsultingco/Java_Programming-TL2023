@@ -32,12 +32,8 @@ public class Task05_GradeLevel {
 
 
 
-    }
-
-
-
-
-}
+    }//main close
+}//class close
 /*
 2. An integer variable named gradeLevel is declared and given, Write a program to determine and print which school type someone is in
 	Ex:

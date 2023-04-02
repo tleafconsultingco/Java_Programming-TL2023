@@ -17,5 +17,5 @@ public class Class04_Concatenation_vs_Addition {
 
         System.out.println("The value is " + true);
 
-    }
-}
+    }//main close
+}//class close

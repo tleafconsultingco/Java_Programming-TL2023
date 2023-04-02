@@ -8,8 +8,5 @@ public class Task04_PosNegZero {
 
 
 
-    }
-
-
-
-}
+    }//main close
+}//class close

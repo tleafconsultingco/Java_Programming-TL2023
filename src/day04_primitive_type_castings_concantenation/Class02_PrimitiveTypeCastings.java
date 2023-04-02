@@ -65,6 +65,5 @@ public class Class02_PrimitiveTypeCastings {
         System.out.println(d1);
 
 
-    }
-
-}
+    }//main close
+}//class close

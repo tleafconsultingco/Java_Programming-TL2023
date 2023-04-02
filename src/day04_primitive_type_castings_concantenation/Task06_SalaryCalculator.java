@@ -10,8 +10,8 @@ public class Task06_SalaryCalculator {
         System.out.println("Hello " + name + ", your salary is $ " + (hourlyRate*weeklyHours*52));
         System.out.println("Hello " + name + ", your salary is $ " + salary);
 
-    }
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedSalaryCalculator.java
 2. DeclarethefollowingVariables: 1. name

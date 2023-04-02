@@ -10,9 +10,8 @@ public class Task02_FlightTicket {
         System.out.println("From " + from + " to " + to + " is $" +ticketPrice);
 
 
-    }
-
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedFlightTicket.java 2. Declarethefollowingvariables:
 1. from

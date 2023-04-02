@@ -91,6 +91,5 @@ public class Class06_LogicalOperators {
 
 
 
-    }
-
-}
+    }//main close
+}//class close

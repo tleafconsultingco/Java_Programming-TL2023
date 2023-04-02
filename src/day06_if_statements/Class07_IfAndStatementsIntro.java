@@ -30,9 +30,5 @@ public class Class07_IfAndStatementsIntro {
 
 
 
-    }
-
-
-
-
-}
+    }//main close
+}//class close

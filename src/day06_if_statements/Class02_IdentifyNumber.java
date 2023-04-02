@@ -56,9 +56,8 @@ public class Class02_IdentifyNumber {
 
 
 
-    }
-
-}
+    }//main close
+}//class close
 
 /*
 2. Create a class named IdentifyNumber, and write a program that can identify if the given number is positive, or negative or zero.

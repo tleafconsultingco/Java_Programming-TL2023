@@ -13,8 +13,8 @@ public class Task05_EmployeeInfo {
         System.out.println(name + " works at " + company_name + " as a " + job_title + ".");
         System.out.println(name + " makes $ " + salary + " per year.");
 
-    }
-}
+    }//main close
+}//class close
 /*
 1. CreateaclassnamedEmployeeInfo.java 2. DeclarethefollowingVariables:
 1. name

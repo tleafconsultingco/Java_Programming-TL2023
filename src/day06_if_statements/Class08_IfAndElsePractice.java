@@ -18,12 +18,5 @@ public class Class08_IfAndElsePractice {
 
 
 
-    }
-
-
-
-
-
-
-
-}
+    }//main close
+}//class close

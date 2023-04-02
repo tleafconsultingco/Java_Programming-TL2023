@@ -26,5 +26,5 @@ public class Class05_IfStatementsIntro {
             System.out.println(number + " is zero"); // does not get executed
         }
 
-    }
-}
+    }//main close
+}//class close

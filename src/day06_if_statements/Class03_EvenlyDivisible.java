@@ -18,9 +18,8 @@ public class Class03_EvenlyDivisible {
 
 
 
-    }
-
-}
+    }//main close
+}//class close
 /*
 3. Create a class named EvenlyDivisible, and write a program that can check if a number is evenly divisible by 2, 3, 5
             Ex:

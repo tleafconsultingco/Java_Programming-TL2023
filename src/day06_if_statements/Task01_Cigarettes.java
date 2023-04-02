@@ -34,11 +34,8 @@ public class Task01_Cigarettes {
             System.out.println("This person is " + age1 + " years old and is not eligible to buy cigarettes");
         }
 
-
-    }
-
-
-}
+    }//main close
+}//class close
 /*
 1. Create a class named Cigarettes.java
 2. A variable named age is declared and given, Write a program that can check if the person is eligible to buy cigarettes
