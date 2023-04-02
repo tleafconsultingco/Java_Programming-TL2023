@@ -29,7 +29,6 @@ public class Class09_AddElements {
         System.out.println("newArray: "+Arrays.toString(newArray));
             //newArray: [1, 2, 3, 4, 5, 6]
 
-
         System.out.println("------ use addElements method ------");
         int[] numbers = { 100, 90, 80, 70, 60};
 
@@ -74,7 +73,6 @@ public class Class09_AddElements {
         students = ArraysUtility.addElement(students, "Muhtar");
         System.out.println("students: "+Arrays.toString(students));
             //students: [Yasin, Sumeye, Ermek, Umran, Abidullah, Muhtar]
-
 
     }//main close
 }//class close

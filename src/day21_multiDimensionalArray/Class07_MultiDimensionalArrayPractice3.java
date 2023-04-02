@@ -23,7 +23,5 @@ public class Class07_MultiDimensionalArrayPractice3 {
         }//outer For-Each loop close
 
 
-
-
     }//main close
 }//class close

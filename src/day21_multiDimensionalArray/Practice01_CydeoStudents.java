@@ -1,7 +1,7 @@
 package day21_multiDimensionalArray;
 
 public class Practice01_CydeoStudents {
-}
+}//class close
 /*
 CydeoStudents Task:
                  1. given the following arrays:

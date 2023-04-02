@@ -1,7 +1,7 @@
 package day21_multiDimensionalArray;
 
 public class Practice02_GivenArray {
-}
+}//class close
 /*
 Given the Array:
                  String[][] items = {
