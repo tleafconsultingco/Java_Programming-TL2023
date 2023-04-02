@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice09_NetIncomeCalc {
-}
+}//class close
 /*
 9. Create a class named NetIncomeCalc, Write a program that can calculate the salary after tax
 based on the following requirements

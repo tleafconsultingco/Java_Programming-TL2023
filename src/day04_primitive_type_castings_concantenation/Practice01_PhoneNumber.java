@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice01_PhoneNumber {
-}
+}//class close
 /*
 1. create a class named PhoneNumber and declare the following variables:
 countryCode, areaCode, localNumber

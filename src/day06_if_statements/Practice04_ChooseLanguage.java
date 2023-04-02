@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice04_ChooseLanguage {
-}
+}//class close
 /*
 4. Create a class named ChooseLanguage, Given an integer variable named selection that has
 a number between 1~5, Write a program that can select the language based on the number

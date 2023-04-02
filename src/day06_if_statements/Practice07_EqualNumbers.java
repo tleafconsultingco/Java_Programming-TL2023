@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice07_EqualNumbers {
-}
+}//class close
 /*
 7. Create a class named EqualNumbers, and write a program that can check the equality of the
 three given numberrs

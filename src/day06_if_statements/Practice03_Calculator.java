@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice03_Calculator {
-}
+}//class close
 /*
 3. Create a class called Calculator, Given two double variables named n1 & n2, and a char
 variable named mathOperator, write a program that can calculate result of n1&n2 based on the

@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice04_GallonsToLiters {
-}
+}//class close
 /*
 4. Create a class named GallonsToLiters and declare the following variables:
 gallon

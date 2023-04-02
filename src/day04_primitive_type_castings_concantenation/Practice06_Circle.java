@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice06_Circle {
-}
+}//class close
 /*
 6. Create a class named Circle and declare the following variables:
 radius

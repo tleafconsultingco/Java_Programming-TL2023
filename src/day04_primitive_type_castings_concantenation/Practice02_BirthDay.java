@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice02_BirthDay {
-}
+}//class close
 /*
 2. Create a class called BirthDay and create the following variable
 name, birthDay(int), birthMonth(String), birthYear(int)

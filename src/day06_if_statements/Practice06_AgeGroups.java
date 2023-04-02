@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice06_AgeGroups {
-}
+}//class close
 /*
 6. Create a class named AgeGroups, an integer variable named age is declared and given.
 write a program that can define the age groups of a person

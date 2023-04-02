@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice07_SalaryCalculator {
-}
+}//class close
 /*
 7. Create a class named SalaryCalculator, and declare the following variables:
 hourlyRate

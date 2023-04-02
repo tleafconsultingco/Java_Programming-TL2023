@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice05_CharacterIdentity {
-}
+}//class close
 /*
 5. Create a class named CharacterIdentity, and write a program that can identify if the given
 character is a digit or Alphabetic Character(A~Z or a~Z) or a special character

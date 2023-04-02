@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice08_SwapTwoVariables1 {
-}
+}//class close
 /*
 8. Create a class named SwapTwoVariables1 and declare the following variables:
 x

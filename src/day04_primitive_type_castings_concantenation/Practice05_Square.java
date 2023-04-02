@@ -1,7 +1,7 @@
 package day04_primitive_type_castings_concantenation;
 
 public class Practice05_Square {
-}
+}//class close
 /*
 5. Create a class named Square and declare the following variables:
 side

@@ -1,7 +1,7 @@
 package day06_if_statements;
 
 public class Practice08_OxygenTank {
-}
+}//class close
 /*
 8. Create a class named OxygenTank. You are diving in the ocean. Your oxygen tank has a
 certain level (number) and you must print a message based on the level:
