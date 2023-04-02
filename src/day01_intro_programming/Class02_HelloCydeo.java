@@ -11,7 +11,5 @@ public class Class02_HelloCydeo {
         System.out.println();
         System.out.println("I love Java");
 
-    }
-
-
-}
+    }//main close
+}//class close

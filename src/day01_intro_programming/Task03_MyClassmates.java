@@ -14,5 +14,5 @@ public class Task03_MyClassmates {
         System.out.println("Korhan Guven");
         System.out.println("Tiya Jannell");
 
-    }
-}
+    }//main close
+}//class close

@@ -11,6 +11,5 @@ public class Class01_HelloWorld {
         System.out.println("I'm tired");
 
 
-    }
-
-}
+    }//main close
+}//class close

@@ -16,6 +16,5 @@ public class Task04_GasReceipt {
         System.out.println("Fuel total:     $47.642");
 
 
-
-    }
-}
+    }//main close
+}//class close

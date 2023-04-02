@@ -15,8 +15,5 @@ public class Task01_JavaComponents {
         System.out.println("JVM");
         System.out.println("Java Virtual Machine");
 
-    }
-
-
-
-}
+    }//main close
+}//class close

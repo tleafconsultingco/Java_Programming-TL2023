@@ -16,6 +16,5 @@ public class Task02_PrintExecution {
         System.out.println("Madina");
 
 
-
-    }
-}
+    }//main close
+}//class close
