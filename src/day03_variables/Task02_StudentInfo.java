@@ -24,10 +24,8 @@ public class Task02_StudentInfo {
         System.out.println("gpa = " + gpa);
 
 
-    }
-
-
-}
+    }//main close
+}//class close
 
 
 /*

@@ -20,10 +20,5 @@ public class Task03_Rectangle {
 
 
 
-    }
-
-
-
-
-
-}
+    }//main close
+}//class close

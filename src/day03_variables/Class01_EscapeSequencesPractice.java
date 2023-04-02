@@ -7,11 +7,8 @@ public class Class01_EscapeSequencesPractice {
         System.out.println("My favorite programming language is \"Java\"\n\tJava is an \"Object-Oriented\" programming language");
 
 
-    }
-
-
-
-}
+    }//main close
+}//class close
 
 /*
 TASK ASSIGNMENT

@@ -32,6 +32,5 @@ public class Class02_PrimitiveDataTypesIntro {
         float gpa2 = 3.5F; // adding f or F will accept the value as float and not double (double is preferred)
 
 
-    }
-
-    }
+    }//main close
+}//class close

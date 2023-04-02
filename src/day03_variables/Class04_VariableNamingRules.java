@@ -50,5 +50,5 @@ public class Class04_VariableNamingRules {
 
 
 
-    }
-}
+    }//main close
+}//class close

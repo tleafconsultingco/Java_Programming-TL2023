@@ -37,13 +37,8 @@ public class Task01_EmployeeInfo {
 
 
 
-    }
-
-
-
-
-
-}
+    }//main close
+}//class close
 
 /*
 1. CreateaclassnamedEmployeeInfo.java
