@@ -4,10 +4,11 @@ public class Class04_IteratingMultiDimensionalArray {
     public static void main(String[] args) {
 
         //! Iterate every 1D array from a multidimensional array (MD)
-        // 1D element index:0   1    2     0   1   2   3   4       0   1
+
         int[][] arr2D = {  {10, 20, 30} , {40, 50, 60, 70, 80} ,  {90, 100} };
-        // 1D arrays index:     0                    1                2
-        // 2D array length:     1                    2                3
+        // element index:   0   1    2     0   1   2   3   4       0   1
+        // 1D arrays index: 0              1                       2
+        // 2D array length: 1              2                       3
 
         //! 1. Use For loop
         for (int i = 0; i < arr2D.length; i++) { 
