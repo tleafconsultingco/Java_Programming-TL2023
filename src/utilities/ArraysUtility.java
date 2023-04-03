@@ -164,8 +164,6 @@ public class ArraysUtility {
         return new_array;
     }
 
-
-    //{1,2,3,4},   1
     //- Verifies if an element is contained in an array
     //-- Verifies if an element is contained in an array (int)
     public static boolean contains(int[] array, int element) {
@@ -211,14 +209,12 @@ public class ArraysUtility {
         return false;
     }
 
-
-
-
-
     /*
     // array = { 10, 20, 30, 40} , 2  ===> {10, 20, 40}
     public static int[] remove(int[] array, int index){
+
     }
+
     public static int[] removeDup(int[] array){
     }
 */
