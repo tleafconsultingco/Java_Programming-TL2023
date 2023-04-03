@@ -14,19 +14,20 @@ public class Class05_Dog {
     public int age;
     public String color;
 
-    // create a custom method so you don't need to type out all the instance variables when used for objects
-    public void setInfo(String name, String breed, String size, char gender, int age, String color){
-        // these are local variables in the signature
-        this.name = name; // you need to assign the argument to the instance variable, by default it will call the local variable, but we need to set it to the instance name. Need to force compiler to call the instance variable name by using (this.)
+    //! Create a custom method for INSTANCE VARIABLES
+    //!! So you don't need to type out all the instance variables when used for objects
+    public void setInfo(String name, String breed, String size, char gender, int age, String color){ //?? these are local variables in the signature
+        //-- you need to assign the argument to the instance variable, by default it will call the local variable, but we need to set it to the instance name. Need to force compiler to call the instance variable name by using (this.)
+        this.name = name;
         this.breed = breed;
         this.size = size;
         this.gender = gender;
         this.age = age;
         this.color = color;
-    }
+    }//custom class close
 
-    // INSTANCE METHODS (all objects will have these variables)
-    // these are the actions
+    //! INSTANCE METHODS (all objects will have these variables)
+    //!! these are the actions
     public void eat(){
         System.out.println(name+" is eating dog food");
     }
@@ -37,9 +38,8 @@ public class Class05_Dog {
         System.out.println(name+" is playing");
     }
 
-    // toString() method required to be able to print object when it's called in a main method
-
-    public String toString() { // to avoid getting hashcode when trying to print object
+    //! toString() method required to be able to print object when it's called in a main method
+    public String toString() { //?? to avoid getting hashcode when trying to print object
         return "Class05_Dog{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
@@ -48,7 +48,7 @@ public class Class05_Dog {
                 ", age=" + age +
                 ", color='" + color + '\'' +
                 '}';
-    }
+    }//custom method close
 
 
     // create 2 dog objects
