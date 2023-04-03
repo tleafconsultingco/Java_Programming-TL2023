@@ -50,6 +50,7 @@ public class Class04_WrapperClassMethods {
 
         System.out.println("--------- char ---------");
 
+        //! Wrapper class methods for Character
         char ch = 'A';
 
         boolean isDigit =Character.isDigit(ch);
@@ -73,8 +74,9 @@ public class Class04_WrapperClassMethods {
 
         //- Extract digits and find sum
 
-        String string = "a1b2c3d4e5";
+
         //! Find sum of all the digits and add to int variable sum
+        String string = "a1b2c3d4e5";
         //!! Assign sum to 0
         int sum = 0;
 
@@ -96,7 +98,6 @@ public class Class04_WrapperClassMethods {
                 //!! If character is a digit, you can convert it to a number
             }//If statement close
         }//For-each loop close
-
         System.out.println("sum = " + sum); //sum = 15
 
 

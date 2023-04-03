@@ -5,11 +5,10 @@ public class Class06_ArrayListMethods {
 
         //- ArrayList methods: add(), size(), and get()
 
-
-        ArrayList<Integer> list = new ArrayList<>();
-
         System.out.println("------- add()----------");
         //-- Arraylist method add() with Integer
+
+        ArrayList<Integer> list = new ArrayList<>();
         //? How can you pass an int even though you need a wrapper class object?
             //?? The int will implicitly autoboxed into Integer wrapper class
         //! Add elements one at a time, every time you add an element the size will be increased
@@ -17,16 +16,14 @@ public class Class06_ArrayListMethods {
         list.add(20); //!! index: 1
         list.add(30); //!! index: 2
         list.add(10); //!! index: 3
-
-        //!! The ArrayList can only accept the indicated data type
-        // list.add(5.5);
-
+        //?? The ArrayList only accepts the indicated data type
+            // list.add(5.5);
         System.out.println("list = "+list);
             //list = [10, 20, 30, 10]
             //index   0   1   2   3
 
-        //! You can insert an element at a specific index number (all following elements will move to the next index
-        list.add(1, 15); //1
+        //! You can insert an element at a specific index number (all following elements will move to the next index)
+        list.add(1, 15); //!! Changes index 1
         System.out.println("list = "+list);
             //list = [10, 15, 20, 30, 10]
 
@@ -70,6 +67,7 @@ public class Class06_ArrayListMethods {
 
         String lastCode = codeArrayList.get(codeArrayList.size()-1);
         System.out.println("lastCode = " + lastCode); //lastCode = Echo
+
 
 
 
