@@ -9,13 +9,13 @@ public class Class01_FormatFullName {
 
         System.out.println("Enter first name");
         String firstName = input.nextLine().trim().replace(" ", "");
-        // trim() and replace() methods will make sure that the white spaces and additional spaces between characters will be removed
+        //!! trim() and replace() methods will make sure that the white spaces and additional spaces between characters will be removed
         System.out.println("Enter last name");
         String lastName = input.nextLine().trim().replace(" ", "");
         input.close();
 
         firstName = firstName.substring(0, 1).toUpperCase() + firstName.substring(1).toLowerCase();
-        // getting first character and converting to uppercase, then concatenate the remaining characters in lowercase
+        //!! Getting first character and converting to uppercase, then concatenate the remaining characters in lowercase
         lastName = lastName.substring(0, 1).toUpperCase() + lastName.substring(1).toLowerCase();
 
         String fullName = firstName + " " + lastName;
