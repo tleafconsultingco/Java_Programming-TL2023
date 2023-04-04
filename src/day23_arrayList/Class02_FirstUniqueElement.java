@@ -24,7 +24,7 @@ public class Class02_FirstUniqueElement {
             //!! 2a. Initialize a new variable frequency
             int frequency = 0;
             //! 3. Nested For-Each loop to iterate each
-            for (Integer each : list) { // TODO not really sure about this step
+            for (Integer each : list) { //!! this inner for-each loop will be iterated against the elements that are iterated in the outer loop (element variable)
                 //! 4. Create If statement for checking each against the element
                 if (each == element){
                     //!! 3a. Increase frequency by 1
