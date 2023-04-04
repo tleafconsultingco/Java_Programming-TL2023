@@ -7,9 +7,12 @@ import java.util.Collections;
 public class Practice01_LastElementZero {
     public static void main(String[] args) {
 
+        //!! Add elements using Arrays.asList()
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         System.out.println("list = " + list); //list = [1, 2, 3, 4, 5]
-        
+
+        //!! Use set to change the element
+        //!! list.size()-1 is the index of the last element
         list.set(list.size()-1,0);
         System.out.println("list = " + list); //list = [1, 2, 3, 4, 0]
 
