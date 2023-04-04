@@ -1,7 +1,21 @@
 package day23_arrayList;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Practice01_LastElementZero {
-}
+    public static void main(String[] args) {
+
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        System.out.println("list = " + list); //list = [1, 2, 3, 4, 5]
+        
+        list.set(list.size()-1,0);
+        System.out.println("list = " + list); //list = [1, 2, 3, 4, 0]
+
+
+    }//main close
+}//class close
 /*
 write a program that can set the last element of the Integer
 arraylist to zero
