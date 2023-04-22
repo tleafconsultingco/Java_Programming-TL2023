@@ -1,4 +1,4 @@
-package week02;
+package week02_day04_06;
 
 public class Class04_Pizza {
 

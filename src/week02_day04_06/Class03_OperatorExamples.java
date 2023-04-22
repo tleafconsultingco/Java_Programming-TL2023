@@ -1,4 +1,4 @@
-package week02;
+package week02_day04_06;
 
 public class Class03_OperatorExamples {
     public static void main(String[]args){
