@@ -19,7 +19,7 @@ public class Class04_WrapperClassMethods {
 
         //? Which wrapper class should you use to convert this string to?
             //?? Use valueOf()
-        Integer num2 = Integer.valueOf(str); //!! Returns int wrapper class
+        Integer num2 = Integer.valueOf(str); //!! Returns Integer wrapper class
         System.out.println(num2);
             //20
 
@@ -45,8 +45,8 @@ public class Class04_WrapperClassMethods {
 
         Boolean r2 = Boolean.valueOf(x);
 
-        System.out.println("r1 = "+r1);
-        System.out.println("r2 = "+r2);
+        System.out.println("r1 = "+r1); //true
+        System.out.println("r2 = "+r2); //true
 
         System.out.println("--------- char ---------");
 

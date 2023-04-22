@@ -23,9 +23,10 @@ public class Class03_ArrayListMethods {
         groceriesList.add("Apples");
         groceriesList.add("Cooking oil");
 
-        System.out.println(groceriesList); //[Eggs, paper Towels, Apples, Cooking oil]
 
         System.out.println("--------- set() ----------");
+
+        System.out.println(groceriesList); //[Eggs, paper Towels, Apples, Cooking oil]
         //? I want to update the list to replace apples with orange
         //?? I cant update the element like how we did with Arrays
             // groceriesList[2] = "Oranges";
@@ -121,7 +122,6 @@ public class Class03_ArrayListMethods {
         list1.add(10);
         System.out.println(list1); //[10]
         System.out.println(list2); //[10]
-
         System.out.println(list1 == list2); //true
             //-- These are the SAME object
 
@@ -133,7 +133,6 @@ public class Class03_ArrayListMethods {
         l2.add(10);
         System.out.println(l1); //[10]
         System.out.println(l2); //[10]
-
         System.out.println(l1 == l2); //false
             //-- These are DIFFERENT objects
 
