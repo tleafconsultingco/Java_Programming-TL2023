@@ -45,7 +45,7 @@ public class Class06_BulkOperations {
         //? What if I don't have another ArrayList to add another ArrayList
         ArrayList<Integer> scores = new ArrayList<>();
 
-        scores.addAll( Arrays.asList(75, 85, 95, 70, 80) ); //!! These are not contained in an ArrayList so you need to use asList() from Arrays utility methods
+        scores.addAll( Arrays.asList(75, 85, 95, 70, 80) ); //!! These are not contained in an ArrayList, so you need to use asList() from Arrays utility methods
 
         System.out.println("scores = " + scores); //scores = [75, 85, 95, 70, 80]
 
@@ -53,10 +53,12 @@ public class Class06_BulkOperations {
 
         ArrayList<String> students = new ArrayList<>();
         students.addAll(  Arrays.asList("Gadir", "Hasan", "Abidullah", "Bilal" )   );
-        System.out.println("students = " + students); //students = [Gadir, Hasan, Abidullah, Bilal]
+        System.out.println("students = " + students);
+            //students = [Gadir, Hasan, Abidullah, Bilal]
 
         students.addAll(2,  Arrays.asList("Shukur", "Sumeye", "Tatiana") );
-        System.out.println("students = " + students); //students = [Gadir, Hasan, Shukur, Sumeye, Tatiana, Abidullah, Bilal]
+        System.out.println("students = " + students);
+            //students = [Gadir, Hasan, Shukur, Sumeye, Tatiana, Abidullah, Bilal]
 
 
         System.out.println("----------");
@@ -76,21 +78,24 @@ public class Class06_BulkOperations {
         System.out.println("------ containsAll() ------");
 
         ArrayList<String> employeesList = new ArrayList<>();
+
         //!! Use addAll to add elements to the new ArrayList
         employeesList.addAll( Arrays.asList(  "Alena", "Muhtar", "Gadir", "Ali" )  );
 
-        System.out.println("employeesList = " + employeesList); //employeesList = [Alena, Muhtar, Gadir, Ali]
+        System.out.println("employeesList = " + employeesList);
+            //employeesList = [Alena, Muhtar, Gadir, Ali]
 
         boolean hasAlena = employeesList.contains("Alena"); //!! to see if ONE element is in the ArrayList use the contains() method
         System.out.println("hasAlena = " + hasAlena); //hasAlena = true
 
-        //?? Instead of using contains() method more than once to find more than 1 element, use the containsAll() method
+        //? Instead of using contains() method more than once to find more than 1 element, use the containsAll() method
         boolean hasAlenaGadir = employeesList.containsAll( Arrays.asList("Alena", "Gadir") );
         System.out.println("hasAlenaGadir = " + hasAlenaGadir); //hasAlenaGadir = true
 
         boolean hasMuhtarAliKuzzat = employeesList.containsAll( Arrays.asList("Muhtar", "Ali", "Kuzzat") );
         
-        System.out.println("hasMuhtarAliKuzzat = " + hasMuhtarAliKuzzat); //hasMuhtarAliKuzzat = false
+        System.out.println("hasMuhtarAliKuzzat = " + hasMuhtarAliKuzzat);
+            //hasMuhtarAliKuzzat = false
 
 
         System.out.println("------------ removeAll() ----------------");

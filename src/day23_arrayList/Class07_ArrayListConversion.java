@@ -21,20 +21,19 @@ public class Class07_ArrayListConversion {
         //- ArrayList to Array, 2 methods
         //-- Advantages of Array are that it supports primitives and can be multidimensional
 
+        //! 1.
         ArrayList<String> list2 = new ArrayList<>( Arrays.asList("Java", "Python", "C#") );
 
-        //!! Convert to String Array
-        //!! Requires the toArray() method and requires the size
+        //!! Requires the toArray() method and the size
         String[] languages = list2.toArray(new String[0]);
             //?? Pass the minimum size of the new Array, best is 0
             //?? If the size of the ArrayList is less than specified size of the new array then it will create a new array that can contain the size of the Array
         System.out.println(Arrays.toString(languages)); //[Java, Python, C#]
 
-
-        //!! Convert to String Array
-
+        //! 2.
         ArrayList<String> colorArrayList = new ArrayList<>( Arrays.asList("Red", "Orange", "Yellow") );
-            //!! Requires the toArray() method and requires the size
+
+        //!! Requires the toArray() method and the size of the ArrayList
         String[] colorArray = colorArrayList.toArray(new String[colorArrayList.size()]);
             //?? Pass the size of the colorArray to the size of the colorArrayList using size()
         System.out.println("colorArray = " + Arrays.asList(colorArray));
@@ -46,12 +45,11 @@ public class Class07_ArrayListConversion {
 
         ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7));
 
-        //!! 1. Set Array to the Wrapper class
+        //!! Set Array to the Wrapper class (int to Integer)
         Integer[] n = nums.toArray(new Integer[0]);
             // ?? The primitive will not work
-            // int[] n = nums.toArray(new Integer[0]);
-
-        System.out.println(Arrays.toString(n));
+                // int[] n = nums.toArray(new Integer[0]);
+        System.out.println(Arrays.toString(n)); //[1, 2, 3, 4, 5, 6, 7]
 
 
     }//main close
