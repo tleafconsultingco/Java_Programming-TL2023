@@ -19,10 +19,10 @@ public class Class05_Dog {
     public void setInfo(String name, String breed, String size, char gender, int age, String color){ //?? these are local variables in the signature
         //-- you need to assign the argument to the instance variable, by default it will call the local variable, but we need to set it to the instance name. Need to force compiler to call the instance variable name by using (this.)
         this.name = name;
-        this.breed = breed;
-        this.size = size;
+        this.breed =  breed;
         this.gender = gender;
         this.age = age;
+        this.size = size;
         this.color = color;
     }//custom class close
 
