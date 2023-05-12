@@ -7,8 +7,8 @@ public class Class12_InstanceInitializationBlock {
         public String name;
         public int age;
 
-    /*
     //!! If I assign a value for the instance variables, they will be executed for every object (acts as if they are static variables)
+    /*
     {
         name = "James";
         age = 20;
