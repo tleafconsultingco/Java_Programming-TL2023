@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Class01_MultiplyOddNumbers {
     public static void main(String[] args) {
 
-        // 1. Create array using array literal since we know the elements
+        //!! 1. Create array using array literal since we know the elements
         int[] numbers = {1,2,3,4,5}; // size is 5
 
         //!! 2. Check which numbers in array are odd numbers, then mutliply by 2 and replace. Use For loop
@@ -22,7 +22,7 @@ public class Class01_MultiplyOddNumbers {
 
         // 3. Print by first calling the Array.toString number
         System.out.println(Arrays.toString(numbers));
-            // [2, 2, 6, 4, 10]
+            //[2, 2, 6, 4, 10]
 
 
 
