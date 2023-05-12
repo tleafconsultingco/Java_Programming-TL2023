@@ -68,8 +68,7 @@ public class TestCode {
         languages.toArray(arr);
         System.out.println("arr = " + Arrays.toString(arr));
             //arr = [Java, Python, C]
-
-
+        
 
     }//main close
 }//class close
