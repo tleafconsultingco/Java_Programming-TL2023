@@ -3,7 +3,7 @@ package day35_polymorphism.transportationTask;
 public interface Interface01_Autopark {
 
     boolean hasAutoPark = true;
-    void autopark();
+    void autoPark();
 
 }//interface
 /*

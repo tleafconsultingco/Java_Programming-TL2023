@@ -2,6 +2,7 @@ package day35_polymorphism.transportationTask;
 
 public interface Interface02_Autopilot extends Interface01_Autopark {
 
+    //!! Every transportation method that has autopilot has autopark
     void selfDrive();
 
 }//interface

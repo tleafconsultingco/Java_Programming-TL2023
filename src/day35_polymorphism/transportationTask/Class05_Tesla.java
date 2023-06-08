@@ -19,7 +19,7 @@ public class Class05_Tesla extends Class02_Car implements Interface01_Autopark, 
 
     //- Override interface methods
     @Override
-    public void autopark() {
+    public void autoPark() {
         System.out.println(getMake()+" "+getModel()+" has autopark");
     }
     @Override

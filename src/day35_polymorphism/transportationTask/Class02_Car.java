@@ -13,6 +13,7 @@ public abstract class Class02_Car extends Class01_Transportation {
         System.out.println("Driving "+getMake()+" "+getModel());
     }
 
+    public abstract void autoPark();
 }//class
 /*
 1. Create an abstract class named Transpotation

@@ -22,7 +22,7 @@ public class Class04_Audi extends Class02_Car implements Interface01_Autopark{
     //- Override interface methods
 
     @Override
-    public void autopark() {
+    public void autoPark() {
         System.out.println(getMake()+" "+getModel()+" is autoparking");
     }
 }//class

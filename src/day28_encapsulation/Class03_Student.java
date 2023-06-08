@@ -6,7 +6,6 @@ public class Class03_Student {
     private String name;
     private int age;
 
-
     //- Getter instance method
     public String getName() {
 
@@ -17,7 +16,6 @@ public class Class03_Student {
 
         return name;
     }//getter instance
-
 
     //- Setter instance method
     public void setName(String name) {

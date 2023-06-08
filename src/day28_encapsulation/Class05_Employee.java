@@ -5,13 +5,9 @@ public class Class05_Employee {
 
     //- Instance variables
     private String name;
-
     private int age;
-
     private String jobTitle;
-
     private double salary;
-
 
     //- Constructor
     public Class05_Employee(String name, int age, String jobTitle, double salary) {

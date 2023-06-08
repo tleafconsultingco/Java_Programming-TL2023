@@ -59,7 +59,7 @@ public class Class01_Phone {
     }//getColor
 
     public void setColor(String color) {
-        String[] colors = {"Black", "White", "Silver", "Gold", "Pink"}; //!! make a String array with valid colors
+        String[] colors = {"Black", "White", "Silver", "Gold", "Pink", "Blue","Red","Gray"}; //!! make a String array with valid colors
         //!! Color can only be set if it complies with if condition
         if (Arrays.asList(colors).contains(color)) { //!! Convert String array to Collection type, then use contains()
             this.color = color;

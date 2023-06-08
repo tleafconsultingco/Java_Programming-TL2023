@@ -24,7 +24,6 @@ public class Class07_Person {
         }//if
         return name;
     }//getName
-
     public void setName(String name){
         if (name == null || name.isBlank() || name.isEmpty()){
             System.err.println("Name canoot be blank or empty");
