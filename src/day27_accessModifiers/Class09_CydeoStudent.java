@@ -12,7 +12,7 @@ public class Class09_CydeoStudent {
     public static String secretCode;
 
 
-    //! Set instance variables seperately with constructor
+    //! Set instance variables separately with constructor
     public Class09_CydeoStudent(String name, int age, char gender){
         this.name = name;
         this.age = age;

@@ -2,41 +2,34 @@ package day26_statics;
 
 public class Class06_Car {
 
-    //- Creates instance variables
+    //- instance variables
     public String make, model;
     public int year;
     public double price;
     public String color;
 
+    //- constructors
     public Class06_Car(String make) {
         this.make = make;
     }
-
     public Class06_Car(String make, String model) {
         this(make);
             //!! call the constructor instead of naming the variable
                 //this.make = make;
         this.model = model;
     }
-
-
     public Class06_Car(String make, String model, int year) {
         this(make, model);
         this.year = year;
     }
-
-
     public Class06_Car(String make, String model, int year, double price) {
         this(make, model, year);
         this.price = price;
     }
-
-
     public Class06_Car(String make, String model, int year, double price, String color) {
         this(make, model, year, price);
         this.color = color;
     }
-
 
     public String toString() {
         return "Class06_Car{" +

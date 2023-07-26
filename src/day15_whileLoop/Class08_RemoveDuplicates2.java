@@ -15,7 +15,7 @@ public class Class08_RemoveDuplicates2 {
                 continue; // skip it
             }
 
-            System.out.println(i);
+            result += str.charAt(i);
 
         }
 

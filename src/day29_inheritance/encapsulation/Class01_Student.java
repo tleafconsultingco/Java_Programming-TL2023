@@ -15,12 +15,9 @@ public class Class01_Student {
         setSchoolName(schoolName);
     }//constructor
 
-    public String getName(){
-        if (name == null){
-            name = "Unknown";
-        }//if
+    public String getName() {
         return name;
-    }//getName
+    }
 
     public void setName(String name){
         if (name.isEmpty() || name.isBlank()){

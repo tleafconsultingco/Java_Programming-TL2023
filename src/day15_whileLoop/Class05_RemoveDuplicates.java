@@ -22,7 +22,7 @@ public class Class05_RemoveDuplicates {
             char each = str.charAt(i);
 
             // concatenate only if the character has not already been added
-            if (!result.contains("" + each)) { // ! is used for "does not". if string result does not contain a character of string str yet,
+            if (!result.contains("" + each)) { // !! is used for "does not". if string result does not contain a character of string str yet,
                 result += each; // then we will add the character to string result
             }
 

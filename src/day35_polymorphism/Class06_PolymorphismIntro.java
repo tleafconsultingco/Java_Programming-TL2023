@@ -36,8 +36,6 @@ public class Class06_PolymorphismIntro {
 
         Class06_Animal[] animals = {dog, cat, tiger, eagle, lion, parrot, dolphin, shark, duck};
 
-
-
         Class06_Animal animal = new Class07_Dog("Max", "Husky", 'M', 4, "Small", "White");
             //!! Can only call methods from the parent class, not the dog class bc parent type is the REFERENCE
 

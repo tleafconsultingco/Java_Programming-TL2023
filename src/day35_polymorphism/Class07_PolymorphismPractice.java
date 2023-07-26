@@ -36,27 +36,18 @@ public class Class07_PolymorphismPractice {
 
 
         Class12_Lion lion = null;
-
         Class09_Parrot parrot = null;
-
         Class13_Shark shark = null;
-
         Class14_Dolphin dolphin = null;
-
         Class10_Eagle eagle = null;
-
         Class15_Duck duck = null;
-
         Class07_Dog dog = null;
-
         Class08_Cat cat = null;
 
         //Class08_CydeoCar cydeoCar = null;
 
         Interface02_Flyable[] birds = {parrot, eagle, duck};
-
         Interface03_Swimmable[] fishes = {dolphin, shark, duck};
-
         Interface01_Playable[] friendlyAnimals = {dog, cat, duck};
 
         System.out.println("-- instance of --");
